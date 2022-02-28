@@ -5,20 +5,9 @@
 > MyConvexHull library: program ini merupakan progam yang berisi modul MyConvexHull untuk membantu mengklasifikasikan dataset yang diberikan dengan cara menentukan titik mana saja yang membentuk sisi terluar dari suatu kategori dataset. Program ini juga menyediakan driver untuk menjalankan program serta kelas pembantu untuk membuat dataset tersendiri. Program ini dibuat untuk memenuhi tugas kecil 2 mata kuliah Strategi Algoritma semester genap tahun 2021/2022
 
 ## Setup
-- Secara default, program ini akan menggunakan dataset iris
-- Namun, Anda dapat mengganti dataset serta kolom yang digunakan dengan cara mengganti baris berikut pada `main.py`
-  ```python
-  data = datasets_dict['iris']
-  ```
-  sesuai dengan dataset yang disediakan:
-  ```py
-  ['iris', 'wine', 'cancer', 'custom']
-  ```
-- Anda juga dapat membuat dataset sendiri sesuai template pada `datasets_dict['custom']`
-- Anda juga dapat menyesuaikan column apa yang ingin dibandingkan dengan cara mengganti baris berikut pada `main.py`
-  ```py
-  COLUMNS_USED = (0, 1)
-  ```
+- Secara default, program ini telah menyediakan beberapa dataset yang dapat digunakan, seperti `['iris', 'wine', 'cancer']`
+- Anda juga dapat membuat dataset tersendiri dengan template yang sudah disediakan, seperti pada dataset `['custom', 'custom1']`
+- Untuk memilih dataset dan atribut mana yang akan digunakan, anda hanya perlu memilih pilihan yang telah disediakan pada command line nantinya
 
 ## How to Run
 - Program ini dapat langsung dijalankan dengan cara menjalankan program utama (`main.py`) dengan cara sebagai berikut.
